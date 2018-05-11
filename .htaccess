@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^$ /m [L]
+# ^$ contains requested url, without the domain
+# /m will be added after ^$
+# [L] means this is the last rule in this run
